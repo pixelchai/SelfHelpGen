@@ -16,6 +16,7 @@ def process_epub(epub_path):
                     f.write("\n")
 
 if __name__ == '__main__':
+    input("Press enter to begin processing epubs -- will overwrite txt files in data/out/")
     os.makedirs(os.path.join("data", "out"), exist_ok=True)
 
     raw_dir = os.path.join("data", "raw")

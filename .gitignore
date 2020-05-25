@@ -212,3 +212,7 @@ cython_debug/
 # project specific
 .idea/
 data/
+archive/
+data.zip
+data.txt
+model.hdf5
